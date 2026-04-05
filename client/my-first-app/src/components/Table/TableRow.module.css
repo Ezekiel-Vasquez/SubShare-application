@@ -1,0 +1,44 @@
+tbody tr {
+    border-bottom: 1px solid rgba(172, 172, 172, 0.493);
+}
+
+tbody tr:hover {
+    background-color: rgb(176, 211, 241);
+}
+
+
+tr td {
+    padding: 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.tag {
+    border-radius: 5px;
+    padding: 4px;
+    display: inline-flex;
+    min-width: 60px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+    
+    @media (min-width: 1024px) {
+        width: 70px;
+    }
+}
+
+.pending {
+    border: 1px solid rgb(233, 211, 139);
+    background-color: rgba(255, 207, 49, 0.418);
+}
+
+.paid {
+    border: 1px solid rgb(0, 179, 80);
+    background-color: rgba(110, 155, 120, .3)
+
+}

@@ -1,0 +1,9 @@
+table {
+    border-radius: 6px;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
